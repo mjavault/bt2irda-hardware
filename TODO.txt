@@ -1,0 +1,7 @@
+- fix XTAL footprint
+- add GPIOs to control transparent mode (see https://learn.sparkfun.com/tutorials/bc118-ble-mate-2-hookup-guide)
+- replace LED with more omnidirectional/powerful?
+- add soft jumer to control voltage to jack (3.3V vs VCC)
+- add mosfet to control power to BLE module
+- reduce power on red led
+- add 3rd led?

@@ -1,0 +1,16 @@
+== Power consumption @ 3.3V
+BLE: 16mA (typical on tx/rx)
+PIC: 250mA max
+TSOP38338: 3mA max
+LED out:
+Red LED power: 30mA (120mA peak)
+Red LED power: 30mA (120mA peak)
+
+Max total: 270mA
+
+
+LED Resistors calculations
+Green: (3.3 - 2.1)V = R * 0.02 mA -> R= 68 ohm
+Red: (3.3 - 2.0)V = R * 0.02 mA -> R= 68 ohm
+IRDA: (3.3 - 1.3)V = R * 0.100 mA -> R= 22 ohm
+
